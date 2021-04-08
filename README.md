@@ -20,7 +20,7 @@ derive_cmp! { struct Foo; }
 
 You can create multiple aliases at a time:
 ```rust
-# use derive_alias::derive_alias;
+use derive_alias::derive_alias;
 
 derive_alias! {
     derive_cmp => #[derive(Eq, PartialEq, Ord, PartialOrd)],
