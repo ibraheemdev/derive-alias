@@ -1,0 +1,13 @@
+[package]
+name = "derive-alias"
+description = "Alias multiple derives as one."
+license = "MIT"
+version = "0.1.0"
+repository = "https://github.com/ibraheemdev/derive-alias"
+authors = ["ibraheemdev <ibrah1440@gmail.com>"]
+edition = "2018"
+keywords = ["derive", "alias", "macros"]
+categories = [""]
+readme = "README.md"
+
+[dependencies]
