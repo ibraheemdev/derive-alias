@@ -3,7 +3,6 @@
 [![Documentation](https://img.shields.io/badge/docs-0.1.0-4d76ae?style=for-the-badge)](https://docs.rs/derive-alias/0.1.0)
 [![Version](https://img.shields.io/crates/v/derive-alias?style=for-the-badge)](https://crates.io/crates/derive-alias)
 [![License](https://img.shields.io/crates/l/derive-alias?style=for-the-badge)](https://crates.io/crates/derive-alias)
-[![Actions](https://img.shields.io/github/workflow/status/ibraheemdev/derive-alias/Rust/master?style=for-the-badge)](https://github.com/ibraheemdev/derive-alias/actions)
 
 Provides a way to alias mutliple derives as one:
 ```rust
