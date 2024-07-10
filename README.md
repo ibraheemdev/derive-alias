@@ -1,10 +1,11 @@
-# Derive Alias
+# `derive-alias`
 
-[![Documentation](https://img.shields.io/badge/docs-0.1.0-4d76ae?style=for-the-badge)](https://docs.rs/derive-alias/0.1.0)
-[![Version](https://img.shields.io/crates/v/derive-alias?style=for-the-badge)](https://crates.io/crates/derive-alias)
-[![License](https://img.shields.io/crates/l/derive-alias?style=for-the-badge)](https://crates.io/crates/derive-alias)
+[<img alt="crates.io" src="https://img.shields.io/crates/v/derive-alias?style=for-the-badge" height="25">](https://crates.io/crates/derive-alias)
+[<img alt="github" src="https://img.shields.io/badge/github-derive--alias-blue?style=for-the-badge" height="25">](https://github.com/ibraheemdev/derive-alias)
+[<img alt="docs.rs" src="https://img.shields.io/docsrs/derive-alias?style=for-the-badge" height="25">](https://docs.rs/derive-alias)
 
-Provides a way to alias mutliple derives as one:
+Provides a way to alias mutliple derives as one.
+
 ```rust
 use derive_alias::derive_alias;
 
@@ -17,7 +18,8 @@ derive_alias! {
 derive_cmp! { struct Foo; }
 ```
 
-You can create multiple aliases at a time:
+You can create multiple aliases at a time.
+
 ```rust
 use derive_alias::derive_alias;
 
