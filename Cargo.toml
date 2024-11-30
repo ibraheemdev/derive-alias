@@ -2,9 +2,9 @@
 name = "derive-alias"
 description = "Alias multiple derives as one."
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 repository = "https://github.com/ibraheemdev/derive-alias"
-authors = ["ibraheemdev <ibrah1440@gmail.com>"]
+authors = ["Ibraheem Ahmed <ibraheem@ibraheem.ca>"]
 edition = "2021"
 keywords = ["derive", "alias", "macros"]
 categories = []
