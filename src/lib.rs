@@ -49,17 +49,17 @@ mod tests {
     }
 
     derive_one! {
-        struct Foo(i32);
+        struct Foo;
     }
 
     derive_two! {
-        struct Bar(i32);
+        struct Bar;
     }
 
     #[test]
     fn a_test() {
-        assert_impl_one(Foo(100));
-        assert_impl_two(Bar(200));
+        assert_impl_one(Foo);
+        assert_impl_two(Bar);
     }
 
     fn assert_impl_one<T>(_: T)
